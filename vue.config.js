@@ -1,5 +1,7 @@
 module.exports = {
-    publicPath: '/cat-finder/',
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/cat-finder/'
+        : '/',
     transpileDependencies: [
         'vuetify'
     ],
