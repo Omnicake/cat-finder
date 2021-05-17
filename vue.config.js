@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath: '/cat-finder/',
     transpileDependencies: [
         'vuetify'
     ],
